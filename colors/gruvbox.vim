@@ -86,9 +86,9 @@ let s:is_dark=(&background == 'dark')
 let s:gb = {}
 
 " fill it with absolute colors
-let s:gb.dark0_hard  = ['#01080f', 234]     " 29-32-33
-let s:gb.dark0       = ['#01080f', 235]     " 40-40-40
-let s:gb.dark0_soft  = ['#01080f', 236]     " 50-48-47
+let s:gb.dark0_hard  = ['#000000', 234]     " 29-32-33
+let s:gb.dark0       = ['#000000', 235]     " 40-40-40
+let s:gb.dark0_soft  = ['#000000', 236]     " 50-48-47
 let s:gb.dark1       = ['#071524', 237]     " 60-56-54
 let s:gb.dark2       = ['#091a2e', 239]     " 80-73-69
 let s:gb.dark3       = ['#07182b', 241]     " 102-92-84
